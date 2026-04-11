@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="https://files.catbox.moe/zcl82b.jpg" alt="WhatsApp Baileys Kyy" width="100%" />
+<img src="https://files.catbox.moe/zcl82b.jpg" alt="WhatsApp Baileys Edgar" width="100%" />
 
 <br/>
 <br/>
 
-# WhatsApp Baileys Kyy
+# WhatsApp Baileys Edgar
 
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
@@ -20,15 +20,15 @@ Built on WebSocket for speed, stability, and full multi-device support.
 
 <br/>
 
-[Installation](#getting-started) &nbsp;\u2022&nbsp; [Documentation](#sendmessage-documentation) &nbsp;\u2022&nbsp; [Features](#main-features) &nbsp;\u2022&nbsp; [Telegram](https://t.me/KyyNotDevv)
+[Installation](#getting-started) &nbsp;\u2022&nbsp; [Documentation](#sendmessage-documentation) &nbsp;\u2022&nbsp; [Features](#main-features) &nbsp;\u2022&nbsp; [Telegram](https://t.me/edgar)
 
 </div>
 
 ---
 
-## What is Baileys Kyy?
+## What is Baileys Edgar?
 
-**WhatsApp Baileys Kyy** is a powerful, open-source library for developers who need reliable WhatsApp automation without the overhead of a browser. Powered by **WebSocket technology**, it supports message management, group administration, interactive messages, and action buttons \u2014 all in a lightweight and modular package.
+**WhatsApp Baileys Edgar** is a powerful, open-source library for developers who need reliable WhatsApp automation without the overhead of a browser. Powered by **WebSocket technology**, it supports message management, group administration, interactive messages, and action buttons \u2014 all in a lightweight and modular package.
 
 Actively maintained with continuous improvements to **pairing stability**, **session management**, and **WhatsApp multi-device compatibility**.
 
@@ -170,7 +170,7 @@ await sock.sendMessage(target, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @KyyNotDevv",
+        footer: "telegram: @edgar",
         buttons: [
             {
                 name: "cta_copy",
@@ -195,13 +195,13 @@ await sock.sendMessage(target, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @KyyNotDevv",
+        footer: "telegram: @edgar",
         image: { url: "https://example.com/image.jpg" },
         nativeFlowMessage: {
             messageParamsJson: JSON.stringify({
                 limited_time_offer: {
                     text: "Limited offer text",
-                    url: "https://t.me/KyyNotDevv",
+                    url: "https://t.me/edgar",
                     copy_code: "PROMO2024",
                     expiration_time: Date.now() * 999
                 },
@@ -214,7 +214,7 @@ await sock.sendMessage(target, {
                 tap_target_configuration: {
                     title: "Title",
                     description: "Description text",
-                    canonical_url: "https://t.me/KyyNotDevv",
+                    canonical_url: "https://t.me/edgar",
                     domain: "shop.example.com",
                     button_index: 0
                 }
@@ -272,7 +272,7 @@ await sock.sendMessage(target, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @KyyNotDevv",
+        footer: "telegram: @edgar",
         image: { url: "https://example.com/image.jpg" },
         buttons: [
             {
